@@ -9,6 +9,7 @@ html,
 body {
   height: 100%;
   background-color: #e9e9e9;
+  color: #969695;
 }
 
 body {
@@ -54,11 +55,15 @@ select {
   align-items: center;
   padding: 0 2rem;
   height: 4rem;
-  color: #969695;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
 }
 
 .header__logo {
-  color: #615353f5;
+  color: #c44c1d;
+
   font-weight: bold;
 }
 
@@ -69,5 +74,63 @@ select {
 }
 
 .navbar__item:hover {
+  color: #c44c1d;
+}
+
+/* MAIN */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 15rem 0;
+  flex-wrap: wrap;
+}
+
+.hero__img {
+  width: 500px;
+  mix-blend-mode: darken;
+}
+
+.hero__text {
+  width: 450px;
+  color: #c44c1d;
+}
+.hero p {
   color: #615353f5;
+}
+
+.hero__button {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-top: 1rem;
+  border-radius: 2px;
+  background-color: #d1d1d1;
+  color: #615353f5;
+}
+
+.content {
+  background-color: #d1d1d1;
+  color: #c44c1d;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 10rem 0;
+}
+
+.card__img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
