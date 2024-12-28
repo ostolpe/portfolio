@@ -1,8 +1,28 @@
-# React + Vite
+# Portfolio Oliver Stolpe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Beskrivning
 
-Currently, two official plugins are available:
+Detta projekt är en personlig portfoliohemsida skapad för att visa upp mina färdigheter, erfarenheter och projekt inom webbutveckling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funktioner
+
+- **Responsiv design:** Anpassar sig till olika skärmstorlekar och enheter.
+- **Projektgalleri:** Visar upp utvalda projekt med beskrivningar och länkar.
+- **Kontaktformulär:** Möjliggör för besökare att skicka meddelanden direkt via hemsidan.
+
+## Använda Metoder och Principer
+
+Under utvecklingen av detta projekt har följande metoder och principer tillämpats:
+
+- **Responsiv Webbdesign:** Användning av flexbox och media queries för att säkerställa att hemsidan fungerar på olika enheter.
+- **Komponentbaserad Arkitektur:** Implementering av återanvändbara komponenter med React för att förbättra kodens modularitet och underhållbarhet.
+- **Versionshantering:** Använt Git för att spåra ändringar och samarbeta effektivt.
+
+## Teknologier
+
+Projektet är byggt med följande teknologier:
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **React**

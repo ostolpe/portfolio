@@ -105,16 +105,26 @@ select {
 }
 .hero p {
   color: #615353f5;
+  margin-bottom: 1rem;
 }
 
 .hero__button {
   font-size: 12px;
   font-weight: bold;
   padding: 5px 10px;
-  margin-top: 1rem;
   border-radius: 2px;
   background-color: #d1d1d1;
   color: #615353f5;
+}
+
+.content__wrapper {
+  background-color: #d1d1d1;
+  color: #c44c1d;
+  text-align: center;
+}
+
+.projects__header {
+  margin: 5rem 0;
 }
 
 .content {
@@ -131,21 +141,15 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
-  margin: 10rem 0;
+  gap: 5px;
+  /* margin: 5rem 0 10rem 0; */
+  margin-bottom: 10rem;
 }
 
 .card__img {
   width: 300px;
   height: 300px;
   object-fit: cover;
-}
-
-/* CONTACT PAGE */
-
-.linkedin__icon {
-  width: 150px;
-  height: 150px;
 }
 
 /* FOOTER */
@@ -159,4 +163,34 @@ select {
 
 .footer__image {
   height: 50px;
+}
+
+.reference__wrapper {
+  background-color: #d1d1d1;
+}
+
+.reference__wrapper h3 {
+  color: #c44c1d;
+  padding-top: 5rem;
+  text-align: center;
+}
+.reference {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  flex-wrap: wrap;
+}
+
+.reference p {
+  width: 200px;
+  margin: 5rem 0;
+}
+
+.download__button {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 2px;
+  background-color: #d1d1d1;
+  color: #615353f5;
 }
