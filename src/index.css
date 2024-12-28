@@ -45,6 +45,12 @@ select {
   outline: none;
 }
 
+.app__container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /* STYLING */
 
 /* HEADER */
@@ -140,4 +146,17 @@ select {
 .linkedin__icon {
   width: 150px;
   height: 150px;
+}
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 5px 0;
+}
+
+.footer__image {
+  height: 50px;
 }
