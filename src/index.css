@@ -134,3 +134,10 @@ select {
   height: 300px;
   object-fit: cover;
 }
+
+/* CONTACT PAGE */
+
+.linkedin__icon {
+  width: 150px;
+  height: 150px;
+}

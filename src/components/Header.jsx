@@ -9,9 +9,9 @@ const Header = () => {
       </div>
       <nav className="header__navbar">
         <ul className="navbar__list">
-          <MenuListItem text="Projects" link="/" />
-          <MenuListItem text="About" link="/" />
-          <MenuListItem text="Contact" link="/" />
+          <MenuListItem text="Projects" link="/projects" />
+          <MenuListItem text="About" link="/About" />
+          <MenuListItem text="Contact" link="/Contact" />
         </ul>
       </nav>
     </div>
