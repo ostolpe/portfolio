@@ -132,7 +132,7 @@ select {
   color: #c44c1d;
   display: flex;
   justify-content: center;
-  gap: 8rem;
+  /* gap: 8rem; */
   flex-wrap: wrap;
 }
 
@@ -141,9 +141,8 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
-  /* margin: 5rem 0 10rem 0; */
-  margin-bottom: 10rem;
+  gap: 1rem;
+  margin: 0 2rem 5rem 2rem;
 }
 
 .card__img {
@@ -177,13 +176,13 @@ select {
 .reference {
   display: flex;
   justify-content: center;
-  gap: 8rem;
+  /* gap: 8rem; */
   flex-wrap: wrap;
 }
 
 .reference p {
   width: 200px;
-  margin: 5rem 0;
+  margin: 3rem;
 }
 
 .download__button {
@@ -193,4 +192,29 @@ select {
   border-radius: 2px;
   background-color: #d1d1d1;
   color: #615353f5;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #615353f5;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__logo {
+    margin-top: 1rem;
+  }
 }
