@@ -16,7 +16,7 @@ const Main = () => {
             My name is Oliver. I am currently studying to become a software
             developer, specializing in C# and ASP.NET.
           </p>
-          <a href="/about" class="hero__button">
+          <a href="/about" className="hero__button">
             LEARN MORE
           </a>
         </div>
