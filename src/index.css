@@ -13,8 +13,8 @@ body {
 }
 
 body {
-  line-height: 1;
-  font-size: 100%;
+  line-height: 120%;
+  font-size: 18px;
   font-family: "lato", sans-serif;
 }
 
