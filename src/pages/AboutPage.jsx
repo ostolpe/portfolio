@@ -4,11 +4,7 @@ const AboutPage = () => {
   return (
     <div>
       <div className="hero">
-        <img
-          className="hero__img__about"
-          src="./src/images/oliver.jpg"
-          alt=""
-        />
+        <img className="hero__img__about" src="./public/oliver.jpg" alt="" />
         <div className="hero__text">
           <p className="introduction__text">
             My name is Oliver Stolpe, and I'm an aspiring software developer
