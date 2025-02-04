@@ -10,7 +10,7 @@ import ContactPage from "./pages/ContactPage";
 
 const router = createBrowserRouter([
   {
-    path: "/portfolio",
+    path: "/",
     element: <HomePage />,
   },
   {
