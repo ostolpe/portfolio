@@ -11,7 +11,6 @@ const Header = () => {
         <ul className="navbar__list">
           <MenuListItem text="Home" link="/" />
           <MenuListItem text="About" link="/About" />
-          <MenuListItem text="Contact" link="/Contact" />
         </ul>
       </nav>
     </div>
